@@ -1,0 +1,601 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+}
+
+/* navbar */
+
+.nav-item{
+    transition: all .5s;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid #0062d3;
+}
+
+/* Start Header */
+
+header {
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+}
+
+.header-content h2 {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.header-content h2 span::after {
+    animation-name: text;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    content: "";
+}
+
+/* End of header */
+
+/* Start About me */
+
+.about-box {
+    background-color: red;
+}
+
+.under {
+    width: 5vw;
+    height: 3px;
+}
+
+.about-det p {
+    font-size: 18px;
+}
+
+/* End Aboute me */
+
+/* Start services */
+
+.service-item {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.icon-circle {
+    font-size: 2.5rem;
+}
+
+.icon-circle i {
+    border: 7px solid #0078ff;
+    border-radius: 50%;
+    padding: 0.6em 0.5em;
+    transition: all 0.7s;
+}
+
+.service-item:hover .icon-circle i {
+    border-color: #cce1f9;
+    background-color: #0078ff;
+}
+
+/* End services */
+
+/* Start counter */
+
+.counter {
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.counter-overlay {
+    padding: 8rem 0;
+    background-color: rgba(0, 120, 255, 0.5);
+}
+
+.counter .icon-circle {
+    font-size: 2rem;
+}
+
+.counter .icon-circle i {
+    color: #fff;
+    border: 7px solid #f5f5f5;
+    padding: 0.6em;
+}
+
+/* End counter */
+
+/* start portflio */
+.portflio-item img {
+    transition: all 1s;
+}
+
+.portflio-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Start Work */
+
+#work {
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.work-overlay {
+    background-color: rgba(0, 120, 255, 0.7);
+}
+
+/* End Work */
+
+/* Start Blog */
+
+.span {
+    text-align: center;
+    top: -10px;
+    left: 40%;
+    background-color: blue;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+/* End Blog */
+
+/* Start contact */
+
+#contact {
+    background-color: #0078ff;
+}
+
+.contact-us {
+    background-color: #fff;
+}
+
+input, textarea {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.contact-us li {
+    padding: 10px 0px;
+}
+
+.contact-us li i{
+    color: #0078ff;
+}
+
+footer {
+    bottom: 0;
+    background-color: #0062d3;
+}
+
+/* End contact */
+
+.hi {
+    right: 15px;
+    bottom: 15px;
+    background-color: #0078ff;
+    padding: 20px;
+    border-radius: 50%;
+    color: wheat;
+}
+
+@keyframes text {
+    0% {
+        content: '';
+    }
+
+    1% {
+        content: "F";
+    }
+
+    2% {
+        content: "Fr";
+    }
+
+    3% {
+        content: "Fro";
+    }
+
+    4% {
+        content: "Fron";
+    }
+
+    5% {
+        content: "Front";
+    }
+
+    6% {
+        content: "Fronte";
+    }
+
+    7% {
+        content: "Fronten";
+    }
+
+    8% {
+        content: "Frontend";
+    }
+
+    9% {
+        content: "Frontend ";
+    }
+
+    10% {
+        content: "Frontend d";
+    }
+
+    11% {
+        content: "Frontend de";
+    }
+
+    12% {
+        content: "Frontend de";
+    }
+
+    13% {
+        content: "Frontend dev";
+    }
+
+    14% {
+        content: "Frontend deve";
+    }
+
+    15% {
+        content: "Frontend devel";
+    }
+
+    16% {
+        content: "Frontend develo";
+    }
+
+    17% {
+        content: "Frontend develop";
+    }
+
+    18% {
+        content: "Frontend develope";
+    }
+
+    19% {
+        content: "Frontend developer";
+    }
+
+    20% {
+        content: "Frontend developer";
+    }
+
+    21% {
+        content: "Frontend develope";
+    }
+
+    22% {
+        content: "Frontend develop";
+    }
+
+    23% {
+        content: "Frontend develo";
+    }
+
+    24% {
+        content: "Frontend devel";
+    }
+
+    25% {
+        content: "Frontend deve";
+    }
+
+    26% {
+        content: "Frontend dev";
+    }
+
+    27% {
+        content: "Frontend de";
+    }
+
+    28% {
+        content: "Frontend ";
+    }
+
+    29% {
+        content: "Fronten";
+    }
+
+    30% {
+        content: "Front";
+    }
+
+    31% {
+        content: "Fro";
+    }
+
+    32% {
+        content: "F";
+    }
+
+    33% {
+        content: "";
+    }
+
+    34% {
+        content: "C";
+    }
+
+    35% {
+        content: "CE";
+    }
+
+    36% {
+        content: "CEO";
+    }
+
+    37% {
+        content: "CEO D";
+    }
+
+    38% {
+        content: "CEO De";
+    }
+
+    39% {
+        content: "CEO Dev";
+    }
+
+    40% {
+        content: "CEO DevF";
+    }
+
+    41% {
+        content: "CEO DevF";
+    }
+
+    42% {
+        content: "CEO DevFo";
+    }
+
+    43% {
+        content: "CEO DevFol";
+    }
+
+    44% {
+        content: "CEO DevFoli";
+    }
+
+    45% {
+        content: "CEO DevFolio";
+    }
+
+    46% {
+        content: "CEO DevFolio";
+    }
+
+    47% {
+        content: "CEO DevFol";
+    }
+
+    48% {
+        content: "CEO DevFol";
+    }
+
+    49% {
+        content: "CEO DevF";
+    }
+
+    50% {
+        content: "CEO Dev";
+    }
+
+    51% {
+        content: "CEO D";
+    }
+
+    52% {
+        content: "CEO";
+    }
+
+    53% {
+        content: "C";
+    }
+
+    54% {
+        content: "";
+    }
+
+    55% {
+        content: "W";
+    }
+
+    56% {
+        content: "We";
+    }
+
+    57% {
+        content: "Web";
+    }
+
+    58% {
+        content: "Web d";
+    }
+
+    59% {
+        content: "Web de";
+    }
+
+    60% {
+        content: "Web des";
+    }
+
+    61% {
+        content: "Web desg";
+    }
+
+    62% {
+        content: "Web desgi";
+    }
+
+    63% {
+        content: "Web desgin";
+    }
+
+    64% {
+        content: "Web desgine";
+    }
+
+    65% {
+        content: "Web desginer";
+    }
+
+    66% {
+        content: "Web desginer";
+    }
+
+    67% {
+        content: "Web desgine";
+    }
+
+    68% {
+        content: "Web desgin";
+    }
+
+    69% {
+        content: "Web desgi";
+    }
+
+    70% {
+        content: "Web desg";
+    }
+
+    71% {
+        content: "Web des";
+    }
+
+    72% {
+        content: "Web de";
+    }
+
+    73% {
+        content: "Web dev";
+    }
+
+    74% {
+        content: "Web deve";
+    }
+
+
+    75% {
+        content: "Web devel";
+    }
+
+    76% {
+        content: "Web develo";
+    }
+
+    77% {
+        content: "Web develop";
+    }
+
+    78% {
+        content: "Web develope";
+    }
+
+    79% {
+        content: "Web developer";
+    }
+
+    80% {
+        content: "Web developer";
+    }
+
+    81% {
+        content: "Web develope";
+    }
+
+    82% {
+        content: "Web develop";
+    }
+
+    83% {
+        content: "Web develo";
+    }
+
+    84% {
+        content: "Web devel";
+    }
+
+    85% {
+        content: "Web deve";
+    }
+
+    86% {
+        content: "Web dev";
+    }
+
+    87% {
+        content: "Web de";
+    }
+
+    88% {
+        content: "Web d";
+    }
+
+    89% {
+        content: "Web ";
+    }
+
+    90% {
+        content: "Web";
+    }
+
+    91% {
+        content: "We";
+    }
+
+    92% {
+        content: "W";
+    }
+
+    93% {
+        content: "";
+    }
+
+    94% {
+        content: "";
+    }
+
+    95% {
+        content: "";
+    }
+
+    96% {
+        content: "";
+    }
+
+    97% {
+        content: "";
+    }
+
+    98% {
+        content: "";
+    }
+
+    99% {
+        content: "";
+    }
+
+    100% {
+        content: "";
+    }
+}
